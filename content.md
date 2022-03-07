@@ -165,7 +165,7 @@ posible?
 
 ## 1. Multiple choice
 
-¿Qué comandos guardaría los cambios de un archivo modificado `myfile.txt` en el repositorio creado previamente?
+¿Qué comandos guardarían los cambios de un archivo modificado `myfile.txt` en el repositorio creado previamente?
 
 <ol>
     <li>
@@ -312,6 +312,32 @@ La Tierra se formó hace aproximadamente 4550e6 de años.
 ¿Qué pasa si tenemos archivos que no queremos que Git rastree?
 
 Debemos crear un **.gitignore**
+
+---
+
+# Repositorios remotos en GitHub
+
+---
+
+<img src="images/github.svg" alt="" style="width: 40%;">
+
+- Nos permite almacenar repositorios remotos
+- Facilita la colaboración
+- Issues y Pull Requests
+- Mucho más:
+  - Code review
+  - Releases
+  - Continuous Integration
+  - GitHub Pages
+
+---
+
+Material basado en la lección desarrollada por
+[Software Carpentry](https://software-carpentry.org/):
+
+- [Control de versiones con git (español)](https://swcarpentry.github.io/git-novice-es/)
+
+- [Version Control with Git (English)](https://swcarpentry.github.io/git-novice/)
 
 ---
 
