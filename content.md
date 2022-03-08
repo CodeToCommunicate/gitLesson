@@ -318,20 +318,84 @@ Debemos crear un **.gitignore**
 
 ---
 
-# Repositorios remotos en GitHub
-
----
+# Repositorios remotos en
 
 <img src="images/github.svg" alt="" style="width: 40%;">
 
-- Nos permite almacenar repositorios remotos
-- Facilita la colaboración
-- Issues y Pull Requests
-- Mucho más:
-  - Code review
-  - Releases
-  - Continuous Integration
-  - GitHub Pages
+---
+
+Hasta ahora, nuestro repositorio local:
+
+<img src="images/git-staging-area.svg" style="width: 100%;">
+
+---
+
+Luego de crear un repositorio en GitHub:
+
+<img src="images/git-freshly-made-github-repo.svg" style="width: 55%;">
+
+---
+
+Luego del primer `git push`:
+
+<img src="images/github-repo-after-first-push.svg" style="width: 65%;">
+
+---
+
+## Ejercicio
+
+[https://pad.carpentries.org/coco_git_lesson](https://pad.carpentries.org/coco_git_lesson)
+
+---
+
+# Colaborando en
+
+<img src="images/github.svg" alt="" style="width: 40%;">
+
+---
+
+Luego de clonar el repositorio:
+
+<img src="images/github-collaboration.svg" style="width: 47%;">
+
+---
+
+## Ejercicio
+
+[https://pad.carpentries.org/coco_git_lesson](https://pad.carpentries.org/coco_git_lesson)
+
+---
+
+## Workflow colaborativo
+
+<ol>
+<li class="fragment">
+Actualizar el repositorio con
+<code class="fragment">git pull origin main</code>
+</li>
+<li class="fragment">
+Realizar cambios y agregarlos al <emph>stage</emph> con
+<code class="fragment">git add</code>
+</li>
+<li class="fragment">
+Hacer un commit de estos cambios con
+<code class="fragment">git commit</code>
+</li>
+<li class="fragment">
+Subir nuestros cambios a GitHub con
+<code class="fragment">git push origin main</code>
+</li>
+</ol>
+
+---
+
+# Conflictos
+
+---
+
+¿Qué sucede si dos personas hacen cambios que se pisan?
+
+<img src="images/conflict.svg" style="width: 60%;">
 
 ---
 
