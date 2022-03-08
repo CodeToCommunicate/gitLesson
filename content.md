@@ -266,7 +266,7 @@ Si Jennifer todavía no hizo ningún commit ni agrego los cambios al stage area:
 
 ## 3. Multiple choice
 
-¿Cuál es el output de `cat venus.txt` al final de este conjunto de comandos?
+¿Cuál es el output de `cat tierra.txt` al final de este conjunto de comandos?
 
 ```bash
 cd sistema_solar
@@ -275,28 +275,31 @@ git add tierra.txt
 nano tierra.txt # agrega el siguiente texto: La vida surgió unos 1000e6 de años después de su creacion.
 git commit -m "Datos sobre la creacion del planeta"
 git checkout HEAD tierra.txt
-cat tierra.txt # esto imprimirá el contenido de venus.txt en la pantalla
+cat tierra.txt # esto imprimirá el contenido de tierra.txt en la pantalla
 ```
 
 <ol>
-    <li>
-    <pre><code> La vida surgió unos 1000e6 de años después de su creacion.
-    </code></pre>
-    </li>
-    <li>
-    <pre><code> La Tierra se formó hace aproximadamente 4550e6 de años.
-    </code></pre>
-    </li>
-    <li>
-    <pre><code>
+<li>
+<pre><code data-trim data-noescape>
+La vida surgió unos 1000e6 de años después de su creacion.
+</code></pre>
+</li>
+<li>
+<pre><code data-trim data-noescape>
+La Tierra se formó hace aproximadamente 4550e6 de años.
+</code></pre>
+</li>
+<li>
+<pre><code data-trim data-noescape>
 La vida surgió unos 1000e6 de años después de su creacion.
 La Tierra se formó hace aproximadamente 4550e6 de años.
-    </code></pre>
-    </li>
-    <li>
-    <pre><code>Error because you have changed tierra.txt without committing the changes
-    </code></pre>
-    </li>
+</code></pre>
+</li>
+<li>
+<pre><code data-trim data-noescape>
+Error because you have changed tierra.txt without committing the changes
+</code></pre>
+</li>
 </ol>
 
 ---
@@ -356,5 +359,3 @@ El contenido de esta presentación está disponible bajo
 <!-- .slide: class="slide-title" -->
 
 # Muchas gracias
-
----
